@@ -63,7 +63,7 @@
       const message = form.parentElement.querySelector('[data-newsletter-message]');
       if (!message || !input) return;
       if (!input.value.trim()) {
-        message.textContent = 'Please add an email so MethProtocol can schedule your digest.';
+        message.textContent = 'Please add an email so Everstakes can schedule your digest.';
         return;
       }
       message.textContent = 'Thanks — the weekly staking digest is queued for ' + input.value.trim() + '.';
